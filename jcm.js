@@ -5,15 +5,15 @@ let cartProductsContainer = document.querySelector('.dialogProducts')
 let likedItemsProductsConatainer = document.querySelector('.likedItemsProducts')
 
 let products = [
-    { 'id': '0', 'name': 'Apple iphone 14 pro', 'gb': ' 512GB', 'serialNumber': '(MQ233)', 'color': 'Gold', 'Price': 1437, 'image': 'https://i.postimg.cc/1XRQMGmX/Iphone-14-pro-1.png', 'liked': false },
-    { 'id': '1', 'name': 'Apple iphone 11 ', 'gb': ' 128GB', 'serialNumber': '(MQ233)', 'color': 'White', 'Price': 510, 'image': 'https://i.postimg.cc/y8JWKHFh/Iphone-14-pro-1-(1).png', 'liked': false },
-    { 'id': '2', 'name': 'Apple iphone 11 ', 'gb': ' 128GB', 'serialNumber': '(MQ233)', 'color': 'White', 'Price': 550, 'image': 'https://i.postimg.cc/y8JWKHFh/Iphone-14-pro-1-(1).png', 'liked': false },
-    { 'id': '3', 'name': 'Apple iphone 14 pro', 'gb': ' 1TB', 'serialNumber': '(MQ2V3)', 'color': 'White', 'Price': 1499, 'image': 'https://i.postimg.cc/BvXzNhfK/Iphone-14-pro-1-(2).png', 'liked': false },
-    { 'id': '4', 'name': 'Apple iphone 14 pro', 'gb': ' 1TB', 'serialNumber': '(MQ2V3)', 'color': 'Gold', 'Price': 1399, 'image': 'https://i.postimg.cc/1XRQMGmX/Iphone-14-pro-1.png', 'liked': false },
-    { 'id': '5', 'name': 'Apple iphone 14 pro', 'gb': ' 128GB', 'serialNumber': '(MQ0G3)', 'color': ' Purple', 'Price': 1600, 'image': 'https://i.postimg.cc/MK6ddsyK/Iphone-14-pro-1-(3).png', 'liked': false },
-    { 'id': '6', 'name': 'Apple iphone 13 mini', 'gb': ' 128GB', 'serialNumber': '(MLK23)', 'color': 'Pink', 'Price': 850, 'image': 'https://i.postimg.cc/d34RbY8K/Iphone-14-pro-1-(4).png', 'liked': false },
-    { 'id': '7', 'name': 'Apple iphone 14 pro', 'gb': ' 256GB', 'serialNumber': '(MQ0T3)', 'color': ' Black', 'Price': 1399, 'image': 'https://i.postimg.cc/hGTLSx9m/Iphone-14-pro-1-(5).png', 'liked': false },
-    { 'id': '8', 'name': 'Apple iphone 14 pro', 'gb': ' 256GB', 'serialNumber': '(MQ103)', 'color': 'Silver', 'Price': 1399, 'image': 'https://i.postimg.cc/BvXzNhfK/Iphone-14-pro-1-(2).png', 'liked': false },
+    { 'id': crypto.randomUUID(), 'name': 'Apple iphone 14 pro', 'gb': ' 512GB', 'serialNumber': '(MQ233)', 'color': 'Gold', 'Price': 1437, 'image': 'https://i.postimg.cc/1XRQMGmX/Iphone-14-pro-1.png', 'liked': false },
+    { 'id': crypto.randomUUID(), 'name': 'Apple iphone 11 ', 'gb': ' 128GB', 'serialNumber': '(MQ233)', 'color': 'White', 'Price': 510, 'image': 'https://i.postimg.cc/y8JWKHFh/Iphone-14-pro-1-(1).png', 'liked': false },
+    { 'id': crypto.randomUUID(), 'name': 'Apple iphone 11 ', 'gb': ' 128GB', 'serialNumber': '(MQ233)', 'color': 'White', 'Price': 550, 'image': 'https://i.postimg.cc/y8JWKHFh/Iphone-14-pro-1-(1).png', 'liked': false },
+    { 'id': crypto.randomUUID(), 'name': 'Apple iphone 14 pro', 'gb': ' 1TB', 'serialNumber': '(MQ2V3)', 'color': 'White', 'Price': 1499, 'image': 'https://i.postimg.cc/BvXzNhfK/Iphone-14-pro-1-(2).png', 'liked': false },
+    { 'id': crypto.randomUUID(), 'name': 'Apple iphone 14 pro', 'gb': ' 1TB', 'serialNumber': '(MQ2V3)', 'color': 'Gold', 'Price': 1399, 'image': 'https://i.postimg.cc/1XRQMGmX/Iphone-14-pro-1.png', 'liked': false },
+    { 'id': crypto.randomUUID(), 'name': 'Apple iphone 14 pro', 'gb': ' 128GB', 'serialNumber': '(MQ0G3)', 'color': ' Purple', 'Price': 1600, 'image': 'https://i.postimg.cc/MK6ddsyK/Iphone-14-pro-1-(3).png', 'liked': false },
+    { 'id': crypto.randomUUID(), 'name': 'Apple iphone 13 mini', 'gb': ' 128GB', 'serialNumber': '(MLK23)', 'color': 'Pink', 'Price': 850, 'image': 'https://i.postimg.cc/d34RbY8K/Iphone-14-pro-1-(4).png', 'liked': false },
+    { 'id': crypto.randomUUID(), 'name': 'Apple iphone 14 pro', 'gb': ' 256GB', 'serialNumber': '(MQ0T3)', 'color': ' Black', 'Price': 1399, 'image': 'https://i.postimg.cc/hGTLSx9m/Iphone-14-pro-1-(5).png', 'liked': false },
+    { 'id': crypto.randomUUID(), 'name': 'Apple iphone 14 pro', 'gb': ' 256GB', 'serialNumber': '(MQ103)', 'color': 'Silver', 'Price': 1399, 'image': 'https://i.postimg.cc/BvXzNhfK/Iphone-14-pro-1-(2).png', 'liked': false },
 ]
 
 let cart = []

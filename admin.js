@@ -34,7 +34,7 @@ console.log(product.name);
     if (product.name == '' || product.gb == '' || product.image == '' || product.serialNumber == '' || product.color == '' || product.image == '') {
         alert('Please fill the Form')
     } else{
-        product.id = product.name
+        product.id = crypto.randomUUID()
         const old_localStorage = JSON.parse(localStorage.getItem('products')) || []
         old_localStorage.push(product)
         localStorage.setItem('products', JSON.stringify(old_localStorage))
